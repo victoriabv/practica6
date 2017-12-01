@@ -1,0 +1,9 @@
+function numprimers (num) {
+    i=!
+    while (i<num){
+        if (num%i==0)
+        return false;
+        i++;
+    }
+    return true;
+}
