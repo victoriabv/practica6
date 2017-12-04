@@ -1,0 +1,79 @@
+body { /*estil general del cos de la pàgina*/
+  color: #b3b300; /*color de la lletra*/
+  background-color: #afce00;
+  font-family: system-ui;
+}
+
+#capçalera{ /*estil de la capçalera on hi ha el títol i el text explicatiu*/
+    background-color: #d2ee62; /*color de fons*/
+    width: 400px;
+    padding-bottom: 20px;
+    margin: auto;
+    border-radius: 15px; /*arrodonir els caires*/
+  }
+  
+  hr {
+    width: 300px; /*amplada de la línia*/
+    color: #334d4d;
+  }
+
+  #titol{/*estil del títol de la capçalera*/
+    text-align:center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: #b3b300; /*color de la lletra*/
+  }
+
+  h3{
+    color: #666600; /*color de la lletra*/
+    font-size: 15px;
+    text-align:center;
+    margin-top: 20px;
+  }
+
+  #autoria{
+    background-color: #d2ee62; /*color de fons*/
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 400px;
+    margin: auto;
+    border-radius: 15px; /*arrodonir els caires*/
+  }
+
+  p{
+    color: #666600; /*color de la lletra*/
+    font-size: 15px;
+    text-align:center;
+    margin-top: 20px;
+  }
+
+  .button1 { /*estil del botó que torna a cridar la funció*/
+    font-family: system-ui;
+    background-color: #b3b300; /*color de fons*/
+    color: #d2ee62; /*color de la lletra*/
+    border: 3px solid #d2ee62;  
+    width: 245px; 
+    height: 35px;
+    border-radius: 10px; /*arrodonir els caires*/ 
+    margin-left: 555px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 19px;
+  }
+
+  .button1:hover { /*hover per canviar el color de fons i el color de la lletra en passar-hi amb el cursor per damunt*/
+    background-color: #d2ee62; /*color del fons*/
+    color: #b3b300; /*color de la lletra*/
+  }
+
+  #numeros {
+    background-color: #d2ee62;
+    width: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+  }
+
+

@@ -2,36 +2,37 @@
 <html>
     <head>
         <title>NúmPrimers</title>
-       <script src="js/funcio.js"></script>
+        <script src="js/funcio.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/fulldestil.css"/>
     </head>
     <body>
        <h1>Números primers</h1>
        <script>
            function numerosprimers () {
+               document.body.innerHTML = '';
+               document.write("<link rel='stylesheet' type='text/css' href='css/fulldestil.css'/>");
+               document.write("<div id='capçalera'><h1 id='titol'>Números primers</h1>");
+               document.write("<hr>");
                var numero = prompt("Introdueix un número");/*finestra emergent per demanar un número a l'usuari*/
-           document.write("<h3>Els números primers de " + numero + " són:</h3>");
-           document.write("<div><table>");
-           var i=1;
-           var repetir=true;
-           while(repetir==true) {
-            for(; i<numero; i++){
-               if(numprimers(i)){
-                   /*document.write("<tr id='tr'>");
-                   document.write("<td id='row'>" i "</td>");
-                   document.write("</tr>");
-                   document.write("</table></div>");*/
-                   document.write(i)
-                   document.write('<br>'); 
-                   repetir=false;
-                   document.write("<input type='button' class='button1' value='Introduir un altre número' onclick='numerosprimers();'>");
-               }
-               else{
-               }
-             
-            }
+               document.write("<h3>Els números primers de " + numero + " són:</h3></div>");
+               var i=1;
+               document.write("<div id='numeros'>");
+               if (numero!=NaN){
+                   for(; i<numero; i++){
+                       if(numprimers(i)){
+                           document.write(i);
+                           document.write("<br>"); 
+                        }
+                    }
+                }
+                else{
+                    alert("Has introduit un valor no vàlid");
+                }
+                document.write("</div>");
+                document.write("<input type='button' class='button1' value='Introduir un altre número' onclick='numerosprimers();'>");
+                document.write("<div id='autoria'><p>Victòria Binimelis Vadell <br>Desembre 2017</p></div>");
            }
-           }
-          numerosprimers();
-       </script> 
+           numerosprimers();
+        </script>
     </body>
 </html>
