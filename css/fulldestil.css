@@ -7,8 +7,8 @@ body { /*estil general del cos de la pàgina*/
 #capçalera{ /*estil de la capçalera on hi ha el títol i el text explicatiu*/
     background-color: #d2ee62; /*color de fons*/
     width: 400px;
-    padding-bottom: 20px;
     margin: auto;
+    margin-bottom: 20px;
     border-radius: 15px; /*arrodonir els caires*/
   }
   
@@ -24,21 +24,21 @@ body { /*estil general del cos de la pàgina*/
     color: #b3b300; /*color de la lletra*/
   }
 
-  h3{
-    color: #666600; /*color de la lletra*/
-    font-size: 15px;
+  #subtitol{
     text-align:center;
-    margin-top: 20px;
+    color: #666600; /*color de la lletra*/
+    padding-bottom: 20px;
   }
 
-  #autoria{
-    background-color: #d2ee62; /*color de fons*/
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    width: 400px;
+  #taula {
+    background-color: #d2ee62;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
     margin: auto;
-    border-radius: 15px; /*arrodonir els caires*/
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
   }
 
   p{
@@ -56,7 +56,7 @@ body { /*estil general del cos de la pàgina*/
     width: 245px; 
     height: 35px;
     border-radius: 10px; /*arrodonir els caires*/ 
-    margin-left: 555px;
+    /*margin-left: 555px;*/
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 19px;
@@ -67,13 +67,21 @@ body { /*estil general del cos de la pàgina*/
     color: #b3b300; /*color de la lletra*/
   }
 
-  #numeros {
-    background-color: #d2ee62;
-    width: 30px;
-    text-align: center;
-    font-size: 20px;
+  #boto {
+    width: 245px;
     margin: auto;
-    padding: 10px;
   }
+
+  #autoria{
+    background-color: #d2ee62; /*color de fons*/
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 400px;
+    margin: auto;
+    border-radius: 15px; /*arrodonir els caires*/
+  }
+
+
 
 
