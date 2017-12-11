@@ -13,13 +13,12 @@
                document.body.innerHTML = '';//per borrar la pàgina quan es torna a carregar//
                document.write("<link rel='stylesheet' type='text/css' href='css/bootstrap.css'/>");//enllaç al boostrap perque recuperi l'estil quan es torna a cridar la funció//
                document.write("<link rel='stylesheet' type='text/css' href='css/fulldestil.css'/>");//enllaç al full d'estil perque recuperi l'estil quan es torna a cridar la funció//
+               document.write("<div id='capçalera'><h1 id='titol'>Números primers</h1></div>");//títol//
                var i=2;//declaració de la variable que serà els número primers obtinguts//
                var repetir=true;//variable booleana per poder a repetir la funció//
                while(repetir==true){//bucle per repetir la funció sempre que la booleana sigui true//
                  var numero = prompt("Introdueix un número");/*finestra emergent per demanar un número a l'usuari*/
-                 document.write("<div id='capçalera'><h1 id='titol'>Números primers</h1>");//títol//
-                 document.write("<hr>");//línia que separa el títol del subtítol//
-                 document.write("<h4 id='subtitol'>Els números primers de " + numero + " són:</h4></div>");//subtítol//
+                 document.write("<div><h4 id='subtitol'>Els números primers de " + numero + " són:</h4></div>");//subtítol//
                  document.write("<div id='taula'><table class='table table-hover'>");//inici taula//
                  if (numero>= 1 && numero!=NaN){//condició que ha de complir el valor per a generar els seus números primers//
                    for(; i<numero; i++){//instruccions per generar els números primers//
